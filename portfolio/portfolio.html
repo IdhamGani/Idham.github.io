@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Idham</title>
+
+     <!--link to css-->
+     <link rel="stylesheet" href="css/style.css">
+
+     <!--link to boxicon.com-->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ 
+     <!--favicon.com // gambar png dari img file-->
+     <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+
+</head>
+<body>
+
+
+    <!--header-->
+    <header class="header">
+        <!--nav-->
+        <div class="nav container">
+            <!--logo-->
+            <a href="#" class="logo">Idham</a>
+            <!--navbar-->
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="resume.html" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!--menu icon-->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!--home-->
+    
+    <section class="home container" id="home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="img/campus.jpg" alt="">
+            </div>
+            <div class="home-text">
+                <h3>Hello</h3>
+                <h2>I'm <span>Muhammad Idham</span></h2>
+                <p>I am student graduate from <span>UITM.</span>
+                    Majoring in <span>Information
+                    Management</span> who experience in
+                    <span>information gathering, evaluating
+                    and managing the information.</span> I am
+                    motivated to constantly develop my
+                    skills and grow professionally</p>
+
+                <!--socmed-->
+
+                <div class="social">
+                    <a href="https://www.facebook.com/mitchikomikoto"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.instagram.com/idham.gani/"><i class='bx bxl-instagram-alt' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about-->
+
+    <section class="about container" id="about">
+       
+        <!--heading-->
+
+        <h2 class="heading">About</h2>
+
+        <!--about content-->
+
+        <div class="about-content">
+            <div class="about-data">
+                <span>About Me</span>
+                <h2>Information Management Graduate</h2>
+                <a href="MUHAMMAD IDHAM RESUME.pdf" class="btn" download="">
+                    Download CV <i class='bx bxs-download'></i>
+                </a>
+            </div>
+            <div class="about-text">
+                <p>Hello this is a website i create for <span>my assignment</span> and to serve as <span>my porfolio.</span></p>
+                <p>I've been learning about <span>library skills </span>and <span>computer skills</span> during my study.<p>
+                <p>This website is created to <span>showcase my computer skills using HTML, CSS and javascript</span> languanges that i learned.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--contact-->
+
+    <section class="contact container" id="contact">
+
+        <!--heading-->
+        <h2 class="heading">contact</h2>
+
+        <!--contact form-->
+        <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your Name" class="name" required>
+            <input type="email" name="" id="" placeholder="Email Address.." class="email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write message here.." class="message" required></textarea>
+            <input type="submit" value="send" class="send-btn">
+        </form>
+
+    </section>
+
+    <!--footer-->
+    <section class="footer container" id="footer">
+        <div class="social">
+            <a href="mailto:idhamgani9@gmail.com"><i class='bx bxs-envelope'></i></a>
+            <a href="https://www.facebook.com/mitchikomikoto"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.instagram.com/idham.gani/"><i class='bx bxl-instagram-alt' ></i></a>
+        </div>
+        <p>&#169; Muhammad Idham</p>
+    </section>
+
+    <!--emailjs link-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+   
+        <!--sweetalert js link-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <script type="text/javascript">
+        emailjs.init('yLtjSfmi5mc2Lf9fa')
+    </script>
+
+    <!--link to js-->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
